@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KkalCalc</title>
+    <link rel="stylesheet" href="assets/css/stylemin.css">
+</head>
+<body>
+    <div class="wrapper">
+       <main class="main">
+            <section class="kcalc">
+                <div class="container">
+                    <div class="kcalc__gender gender">
+                        <h2 class="gender__title global__title">Ваш пол</h2>
+                        <div class="gender__block">
+                            <label class="gender__item">
+                                <input type="radio" name="gender" id="woman" class="gender__input" value="447.6" checked>
+                                <div class="gender__fake">Женщина</div>
+                            </label>
+                            <label class="gender__item">
+                                <input type="radio" name="gender" id="man" class="gender__input" value="88.36">
+                                <div class="gender__fake">Мужчина</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="kcalc__constitution constitution">
+                        <h2 class="constitution__title global__title">Ваша конституция</h2>
+                        <div class="constitution__block">
+                            <input type="text" name="height" id="height" class="constitution__input" placeholder="Введите рост">
+                            <input type="text" name="weight" id="weight" class="constitution__input" placeholder="Введите вес">
+                            <input type="text" name="age" id="age" class="constitution__input" placeholder="Введите возраст">
+                        </div>
+                    </div>
+                    <div class="kcalc__activity activity">
+                        <h2 class="activity__title global__title">Выберите вашу физическую активность</h2>
+                        <div class="activity__block">
+                            <label class="activity__item">
+                                <input type="radio" name="activity" id="activity" class="activity__input" value="1.2" checked>
+                                <div class="activity__fake">Низкая активность</div>
+                            </label>
+                            <label class="activity__item">
+                                <input type="radio" name="activity" id="activity" class="activity__input" value="1.375">
+                                <div class="activity__fake">Невысокая активность</div>
+                            </label>
+                            <label class="activity__item">
+                                <input type="radio" name="activity" id="activity" class="activity__input" value="1.55">
+                                <div class="activity__fake">Умеренная активность</div>
+                            </label>
+                            <label class="activity__item">
+                                <input type="radio" name="activity" id="activity" class="activity__input" value="1.9">
+                                <div class="activity__fake">Высокая активность</div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="kcalc__value value">
+                        <h2 class="value__text global__title">Ваша суточная норма калорий:<span></span><span id="value"></span> ккал</h2>
+                    </div>
+                </div>
+            </section>
+       </main>
+    </div>
+    <script src="assets/js/mainmin.js"></script>
+</body>
+</html>
